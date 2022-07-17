@@ -28,7 +28,7 @@ function App() {
   const currentPosts = posts.slice(indexOfFirstPost, indexOfLastPost);
 
   // CHANGE POSTS PAGE
-
+  const paginate = (pageNumber) => setCurrentPage(pageNumber)
 
   return (
     <main className="main-container">
